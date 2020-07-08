@@ -1,0 +1,6 @@
+XBE_TITLE = donut
+GEN_XISO = $(XBE_TITLE).iso
+SRCS = $(CURDIR)/main.c
+NXDK_DIR = /mnt/c/dev/nxdk/nxdk
+CFLAGS += -O2 -D_WIN32
+include $(NXDK_DIR)/Makefile

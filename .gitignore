@@ -1,0 +1,12 @@
+# Directories or Files
+bin
+donut
+
+# Build objects
+*.o
+*.d
+*.obj
+
+# Executables
+*.exe
+*.iso
